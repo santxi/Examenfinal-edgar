@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Paginas de reportes</title>
 
   <!-- Google Font: Source Sans Pro -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
@@ -19,357 +21,580 @@
   <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
-   <!-- Google Font: Source Sans Pro -->
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- overlayScrollbars -->
   <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
-  
+  <!-- fullCalendar -->
+  <link rel="stylesheet" href="plugins/fullcalendar/main.css">
   <!-- Daterange picker -->
   <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
   <!-- summernote -->
   <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
+  <link rel="stylesheet" href="dist/css/styles.css">
+
+
 </head>
+
 <body class="hold-transition sidebar-mini layout-fixed">
-<div class="wrapper">
+  <div class="wrapper">
 
-  <!-- Preloader -->
-  <div class="preloader flex-column justify-content-center align-items-center">
-    <img class="animation__shake" src="dist/img/oshawott.png" alt="oshawott" height="185" width="200">
-  </div>
+    <!-- Preloader -->
+    <div class="preloader flex-column justify-content-center align-items-center">
+      <img class="animation__shake" src="dist/img/oshawott.png" alt="oshawott" height="185" width="200">
+    </div>
 
-  <!-- Navbar -->
-  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
-    <!-- Left navbar links -->
-    
+    <!-- Navbar -->
+    <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+      <!-- Left navbar links -->
 
-    <!-- Right navbar links -->
-    <ul class="navbar-nav ml-auto">
-      <!-- Navbar Search -->
-      
 
-      <!-- Messages Dropdown Menu -->
-      
-      <!-- Notifications Dropdown Menu -->
-      
-      
-    </ul>
-  </nav>
-  <!-- /.navbar -->
+      <!-- Right navbar links -->
+      <ul class="navbar-nav ml-auto">
+        <!-- Navbar Search -->
 
-  <!-- Main Sidebar Container -->
-  <aside class="main-sidebar sidebar-dark-primary elevation-4">
-    <!-- Brand Logo -->
-    <a href="index3.html" class="brand-link">
-      <img src="dist/img/gengar.jfif" alt="gengar" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">Reportes del cada</span>
-    </a>
 
-    <!-- Sidebar -->
-    <div class="sidebar">
-      <!-- Sidebar user panel (optional) -->
-      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-        <div class="image">
-          <img src="dist/img/director.jpg" class="img-circle elevation-2" alt="User Image">
-        </div>
-        <div class="info">
-          <a href="#" class="d-block">Director Aguileo Aguirre</a>
-        </div>
-      </div>
+        <!-- Messages Dropdown Menu -->
 
-      <!-- SidebarSearch Form -->
-      <div class="form-inline">
-        <div class="input-group" data-widget="sidebar-search">
-          <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
-          <div class="input-group-append">
-            <button class="btn btn-sidebar">
-              <i class="fas fa-search fa-fw"></i>
-            </button>
+        <!-- Notifications Dropdown Menu -->
+
+
+      </ul>
+    </nav>
+    <!-- /.navbar -->
+
+    <!-- Main Sidebar Container -->
+    <aside class="main-sidebar sidebar-dark-primary elevation-4">
+      <!-- Brand Logo -->
+      <a href="index3.html" class="brand-link">
+        <img src="dist/img/gengar.jfif" alt="gengar" class="brand-image img-circle elevation-3" style="opacity: .8">
+        <span class="brand-text font-weight-light">Reportes del cada</span>
+      </a>
+
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <!-- Sidebar user panel (optional) -->
+        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+          <div class="image">
+            <img src="dist/img/director.jpg" class="img-circle elevation-2" alt="User Image">
+          </div>
+          <div class="info">
+            <a href="#" class="d-block">Director Aguileo Aguirre</a>
           </div>
         </div>
-      </div>
 
-      <!-- Sidebar Menu -->
-      <nav class="mt-2">
-        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-          <!-- Add icons to the links using the .nav-icon class
+        <!-- SidebarSearch Form -->
+        <div class="form-inline">
+          <div class="input-group" data-widget="sidebar-search">
+            <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+            <div class="input-group-append">
+              <button class="btn btn-sidebar">
+                <i class="fas fa-search fa-fw"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sidebar Menu -->
+        <nav class="mt-2">
+          <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+            <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-          <li class="nav-item menu-open">
-            <a href="#" class="nav-link active">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
-              <p>
-                Paginas de reportes
-                <i class="right fas fa-angle-left"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="#" class="nav-link active">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Presencia de los alumnos</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="./index2.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v2</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v3</p>
-                </a>
-              </li>
-              <li class="nav-item menu-open">
-                <a href="#" class="nav-link active">
-                  <i class="nav-icon fas fa-tachometer-alt"></i>
-                  <p>
-                    Paginas de reportes
-                    <i class="right fas fa-angle-left"></i>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="file:///C:/Users/2BTI/Desktop/Examenfinal-edgar/Examenfinal-edgar/edgar/pages/tables/simple.html" class="nav-link active">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Presencia de los alumnos</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Dashboard v2</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Dashboard v3</p>
-                    </a>
-                  </li>
-                </ul>
-            </ul>
-            
-          </li>
-         
-      <!-- /.sidebar-menu -->
-    </div>
-    <!-- /.sidebar -->
-  </aside>
+            <li class="nav-item menu-open">
+              <a href="#" class="nav-link active">
+                <i class="nav-icon fas fa-tachometer-alt"></i>
+                <p>
+                  Paginas de reportes
+                  <i class="right fas fa-angle-left"></i>
+                </p>
+              </a>
+              <ul class="nav nav-treeview">
+                <li class="nav-item">
+                  <a href="#" class="nav-link active">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Presencia de los alumnos</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="./index2.html" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Dashboard v2</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="./index3.html" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Dashboard v3</p>
+                  </a>
+                </li>
+                <li class="nav-item menu-open">
+                  <a href="#" class="nav-link active">
+                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                    <p>
+                      Paginas de reportes
+                      <i class="right fas fa-angle-left"></i>
+                    </p>
+                  </a>
+                  <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                      <a href="file:///C:/Users/2BTI/Desktop/Examenfinal-edgar/Examenfinal-edgar/edgar/pages/tables/simple.html"
+                        class="nav-link active">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Presencia de los alumnos</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Dashboard v2</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Dashboard v3</p>
+                      </a>
+                    </li>
+                  </ul>
+              </ul>
 
-  <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <div class="content-header">
-      <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-sm-6">
-            <h1 class="m-0">Reportes</h1>
-          </div><!-- /.col -->
-          <div class="col-sm-6">
-            <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Incio</a></li>
-           <!-- arriba derecha editado -->
-            </ol>
-          </div><!-- /.col -->
-        </div><!-- /.row -->
-      </div><!-- /.container-fluid -->
-    </div>
-    <!-- /.content-header -->
+            </li>
 
-    <!-- Main content -->
-    <section class="content">
-      <div class="container-fluid">
-        <!-- Small boxes (Stat box) -->
-        <div class="row">
-          <div class="col-lg-3 col-6">
-            <!-- primer cuadro -->
-            <div class="small-box bg-info">
-              <div class="inner">
-                <h3>150</h3>
+            <!-- /.sidebar-menu -->
+      </div>
+      <!-- /.sidebar -->
+    </aside>
 
-                <p>Estudiantes</p>
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+      <!-- Content Header (Page header) -->
+      <div class="content-header">
+        <div class="container-fluid">
+          <div class="row mb-2">
+            <div class="col-sm-6">
+              <h1 class="m-0">Reportes</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+              <ol class="breadcrumb float-sm-right">
+                <li class="breadcrumb-item"><a href="#">Incio</a></li>
+                <!-- arriba derecha editado -->
+              </ol>
+            </div><!-- /.col -->
+          </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+      </div>
+      <!-- /.content-header -->
+
+      <!-- Main content -->
+      <section class="content">
+        <div class="container-fluid">
+          <!-- Small boxes (Stat box) -->
+          <div class="row">
+            <div class="col-lg-3 col-6">
+              <!-- primer cuadro -->
+              <div class="small-box bg-info">
+                <div class="inner">
+                  <h3>150</h3>
+
+                  <p>Estudiantes</p>
+                </div>
+                <div class="icon">
+                  <i class="fas fa-users"></i>
+                </div>
+                <a href="file:///C:/Users/2BTI/Desktop/Examenfinal-edgar/Examenfinal-edgar/edgar/pages/tables/simple.html"
+                  class="small-box-footer">Más info <i class="fas fa-arrow-circle-right"></i></a>
+
               </div>
-              <div class="icon">
-                <i class="fas fa-users"></i>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-6">
+              <!-- small box -->
+              <div class="small-box bg-success">
+                <div class="inner">
+                  <h3>50<sup style="font-size: 20px"></sup></h3>
+
+                  <p>Ausentes</p>
+                </div>
+                <div class="icon">
+                  <i class="fas fa-user-times"></i>
+                </div>
+                <a href="#" class="small-box-footer">Más info <i class="fas fa-arrow-circle-right"></i></a>
               </div>
-              <a href="file:///C:/Users/2BTI/Desktop/Examenfinal-edgar/Examenfinal-edgar/edgar/pages/tables/simple.html" class="small-box-footer">Más info <i class="fas fa-arrow-circle-right"></i></a>
-            
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-6">
+              <!-- small box -->
+              <div class="small-box bg-warning">
+                <div class="inner">
+                  <h3>75</h3>
+
+                  <p>Estudiantes Presentes</p>
+                </div>
+                <div class="icon">
+                  <i class="fas fa-user-check "></i>
+                </div>
+                <a href="#" class="small-box-footer">Más info <i class="fas fa-arrow-circle-right"></i></a>
+              </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-6">
+              <!-- small box -->
+              <div class="small-box bg-danger">
+                <div class="inner">
+                  <h3>10</h3>
+
+                  <p>Docentes</p>
+                </div>
+                <div class="icon">
+                  <i class="fas fa-user-tie"></i>
+                </div>
+                <a href="#" class="small-box-footer">Más info <i class="fas fa-arrow-circle-right"></i></a>
+              </div>
+            </div>
+            <!-- ./col -->
+          </div>
+          <!-- /.row -->
+          <!-- Main row -->
+          <div class="row">
+      </section>
+      <!-- /.Left col -->
+      <!-- right col (We are only adding the ID to make the widgets sortable)-->
+      <section class="col-lg-12 connectedSortable">
+        <!-- solid sales graph -->
+        <div class="card nav-maxi">
+          <div class="card-header border-0">
+            <h3 class="card-title">
+              <i class="fas fa-th mr-1"></i>
+              Sales Graph
+            </h3>
+
+            <div class="card-tools">
+              <button type="button" class="btn bg-info btn-sm" data-card-widget="collapse">
+                <i class="fas fa-minus"></i>
+              </button>
+              <button type="button" class="btn bg-info btn-sm" data-card-widget="remove">
+                <i class="fas fa-times"></i>
+              </button>
             </div>
           </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-success">
-              <div class="inner">
-                <h3>50<sup style="font-size: 20px"></sup></h3>
-
-                <p>Ausentes</p>
-              </div>
-              <div class="icon">
-                <i class="fas fa-user-times"></i>
-              </div>
-              <a href="#" class="small-box-footer">Más info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
+          <div class="card-body">
+            <canvas class="chart" id="line-chart"
+              style="min-height: 5px; height: 5px; max-height: 5px; max-width: 100%;"></canvas>
           </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-warning">
-              <div class="inner">
-                <h3>75</h3>
+          <!-- /.card-body -->
+          <div class="card-footer bg-transparent">
+            <div class="row">
+              <div class="col-4 text-center">
+                <input type="text" class="knob" data-readonly="true" value="20" data-width="80" data-height="80"
+                  data-fgColor="#39CCCC">
 
-                <p>Estudiantes Presentes</p>
+                <div class="text-white">Presentes</div>
               </div>
-              <div class="icon">
-                <i class="fas fa-user-check "></i>
-              </div>
-              <a href="#" class="small-box-footer">Más info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-danger">
-              <div class="inner">
-                <h3>10</h3>
+              <!-- ./col -->
+              <div class="col-4 text-center">
+                <input type="text" class="knob" data-readonly="true" value="50" data-width="80" data-height="80"
+                  data-fgColor="#39CCCC">
 
-                <p>Docentes</p>
+                <div class="text-white">Retirados</div>
               </div>
-              <div class="icon">
-                <i class="fas fa-user-tie"></i>
+              <!-- ./col -->
+              <div class="col-4 text-center">
+                <input type="text" class="knob" data-readonly="true" value="30" data-width="80" data-height="80"
+                  data-fgColor="#39CCCC">
+
+                <div class="text-white">Ausentes</div>
               </div>
-              <a href="#" class="small-box-footer">Más info <i class="fas fa-arrow-circle-right"></i></a>
+              <!-- ./col -->
             </div>
+            <!-- /.row -->
           </div>
-          <!-- ./col -->
+          <!-- /.card-footer -->
         </div>
-        <!-- /.row -->
-        <!-- Main row -->
-        <div class="row">
-          <!-- Left col -->
-          
-          
-            <!-- borrar cosito-->
-          
-            <!-- /.card -->
+        <!-- /.card -->
 
-            <!-- chat directo -->
-            
-                <!--/.direct-chat-messages-->
+        <!-- Calendar -->
+        <!-- Main content -->
+        <section class="content">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="sticky-top mb-3">
+                  <div class="card">
+                    <div class="card-header">
+                      <h4 class="card-title">Draggable Events</h4>
+                    </div>
+                    <div class="card-body">
+                      <!-- the events -->
+                      <div id="external-events">
+                        <div class="external-event bg-success">Lunch</div>
+                        <div class="external-event bg-warning">Go home</div>
+                        <div class="external-event bg-info">Do homework</div>
+                        <div class="external-event bg-primary">Work on UI design</div>
+                        <div class="external-event bg-danger">Sleep tight</div>
+                        <div class="checkbox">
+                          <label for="drop-remove">
+                            <input type="checkbox" id="drop-remove">
+                            remove after drop
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /.card-body -->
+                  </div>
+                  <!-- /.card -->
+                  <div class="card">
+                    <div class="card-header">
+                      <h3 class="card-title">Create Event</h3>
+                    </div>
+                    <div class="card-body">
+                      <div class="btn-group" style="width: 100%; margin-bottom: 10px;">
+                        <ul class="fc-color-picker" id="color-chooser">
+                          <li><a class="text-primary" href="#"><i class="fas fa-square"></i></a></li>
+                          <li><a class="text-warning" href="#"><i class="fas fa-square"></i></a></li>
+                          <li><a class="text-success" href="#"><i class="fas fa-square"></i></a></li>
+                          <li><a class="text-danger" href="#"><i class="fas fa-square"></i></a></li>
+                          <li><a class="text-muted" href="#"><i class="fas fa-square"></i></a></li>
+                        </ul>
+                      </div>
+                      <!-- /btn-group -->
+                      <div class="input-group">
+                        <input id="new-event" type="text" class="form-control" placeholder="Event Title">
 
-                <!-- Contacts are loaded here -->
-                
-                  
-                    <!-- End Contact Item -->
-                    
-                    <!-- End Contact Item -->
-                    
-                    <!-- End Contact Item -->
-                    
-                    <!-- End Contact Item -->
-                    
-                    <!-- End Contact Item -->
-                    
-          </section>
-          <!-- /.Left col -->
-          <!-- right col (We are only adding the ID to make the widgets sortable)-->
-          <section class="col-lg-5 connectedSortable">
-
-            <!-- Map card -->
-            
-            <!-- /.card -->
-
-            <!-- solid sales graph -->
-            <div class="card bg-gradient-info">
-              <div class="card-header border-0">
-                <h3 class="card-title">
-                  <i class="fas fa-th mr-1"></i>
-                  Sales Graph
-                </h3>
-
-                <div class="card-tools">
-                  <button type="button" class="btn bg-info btn-sm" data-card-widget="collapse">
-                    <i class="fas fa-minus"></i>
-                  </button>
-                  <button type="button" class="btn bg-info btn-sm" data-card-widget="remove">
-                    <i class="fas fa-times"></i>
-                  </button>
+                        <div class="input-group-append">
+                          <button id="add-new-event" type="button" class="btn btn-primary">Add</button>
+                        </div>
+                        <!-- /btn-group -->
+                      </div>
+                      <!-- /input-group -->
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="card-body">
-                <canvas class="chart" id="line-chart" style="min-height: 100px; height: 100px; max-height: 100px; max-width: 200%;"></canvas>
-              </div>
-              <!-- /.card-body -->
-              <div class="card-footer bg-transparent">
-                <div class="row">
-                  <div class="col-4 text-center">
-                    <input type="text" class="knob" data-readonly="true" value="20" data-width="60" data-height="60"
-                           data-fgColor="#39CCCC">
-
-                    <div class="text-white">Presentes</div>
+              <!-- /.col -->
+              <div class="col-md-9">
+                <div class="card card-primary">
+                  <div class="card-body p-0">
+                    <!-- THE CALENDAR -->
+                    <div id="calendar"></div>
                   </div>
-                  <!-- ./col -->
-                  <div class="col-4 text-center">
-                    <input type="text" class="knob" data-readonly="true" value="50" data-width="60" data-height="60"
-                           data-fgColor="#39CCCC">
-
-                    <div class="text-white">Retirados</div>
-                  </div>
-                  <!-- ./col -->
-                  <div class="col-4 text-center">
-                    <input type="text" class="knob" data-readonly="true" value="30" data-width="60" data-height="60"
-                           data-fgColor="#39CCCC">
-
-                    <div class="text-white">Ausentes</div>
-                  </div>
-                  <!-- ./col -->
+                  <!-- /.card-body -->
                 </div>
-                <!-- /.row -->
+                <!-- /.card -->
               </div>
-              <!-- /.card-footer -->
+              <!-- /.col -->
             </div>
-            <!-- /.card -->
+            <!-- /.row -->
+          </div><!-- /.container-fluid -->
+        </section>
+        <!-- /.content -->
+    </div>
+    <!-- ./wrapper -->
 
-            <!-- Calendar -->
-            
+    <!-- jQuery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- jQuery UI 1.11.4 -->
+    <script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>
+      $.widget.bridge('uibutton', $.ui.button)
+    </script>
+    <!-- Bootstrap 4 -->
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- ChartJS -->
+    <script src="plugins/chart.js/Chart.min.js"></script>
+    <!-- Sparkline -->
+    <script src="plugins/sparklines/sparkline.js"></script>
+    <!-- JQVMap -->
+    <script src="plugins/jqvmap/jquery.vmap.min.js"></script>
+    <script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+    <!-- jQuery Knob Chart -->
+    <script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+    <!-- daterangepicker -->
+    <script src="plugins/moment/moment.min.js"></script>
+    <script src="plugins/daterangepicker/daterangepicker.js"></script>
+    <!-- Tempusdominus Bootstrap 4 -->
+    <script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+    <!-- Summernote -->
+    <script src="plugins/summernote/summernote-bs4.min.js"></script>
+    <!-- overlayScrollbars -->
+    <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="dist/js/adminlte.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="dist/js/demo.js"></script>
+    <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+    <script src="dist/js/pages/dashboard.js"></script>
+    <!-- fullCalendar 2.2.5 -->
+    <script src="plugins/moment/moment.min.js"></script>
+    <script src="plugins/fullcalendar/main.js"></script>
+    <script>
+      $(function () {
 
-            
-<!-- ./wrapper -->
+        /* initialize the external events
+         -----------------------------------------------------------------*/
+        function ini_events(ele) {
+          ele.each(function () {
 
-<!-- jQuery -->
-<script src="plugins/jquery/jquery.min.js"></script>
-<!-- jQuery UI 1.11.4 -->
-<script src="plugins/jquery-ui/jquery-ui.min.js"></script>
-<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
-<script>
-  $.widget.bridge('uibutton', $.ui.button)
-</script>
-<!-- Bootstrap 4 -->
-<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!-- ChartJS -->
-<script src="plugins/chart.js/Chart.min.js"></script>
-<!-- Sparkline -->
-<script src="plugins/sparklines/sparkline.js"></script>
-<!-- JQVMap -->
-<script src="plugins/jqvmap/jquery.vmap.min.js"></script>
-<script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
-<!-- jQuery Knob Chart -->
-<script src="plugins/jquery-knob/jquery.knob.min.js"></script>
-<!-- daterangepicker -->
-<script src="plugins/moment/moment.min.js"></script>
-<script src="plugins/daterangepicker/daterangepicker.js"></script>
-<!-- Tempusdominus Bootstrap 4 -->
-<script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
-<!-- Summernote -->
-<script src="plugins/summernote/summernote-bs4.min.js"></script>
-<!-- overlayScrollbars -->
-<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
-<!-- AdminLTE App -->
-<script src="dist/js/adminlte.js"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="dist/js/demo.js"></script>
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="dist/js/pages/dashboard.js"></script>
+            // create an Event Object (https://fullcalendar.io/docs/event-object)
+            // it doesn't need to have a start or end
+            var eventObject = {
+              title: $.trim($(this).text()) // use the element's text as the event title
+            }
+
+            // store the Event Object in the DOM element so we can get to it later
+            $(this).data('eventObject', eventObject)
+
+            // make the event draggable using jQuery UI
+            $(this).draggable({
+              zIndex: 1070,
+              revert: true, // will cause the event to go back to its
+              revertDuration: 0  //  original position after the drag
+            })
+
+          })
+        }
+
+        ini_events($('#external-events div.external-event'))
+
+        /* initialize the calendar
+         -----------------------------------------------------------------*/
+        //Date for the calendar events (dummy data)
+        var date = new Date()
+        var d = date.getDate(),
+          m = date.getMonth(),
+          y = date.getFullYear()
+
+        var Calendar = FullCalendar.Calendar;
+        var Draggable = FullCalendar.Draggable;
+
+        var containerEl = document.getElementById('external-events');
+        var checkbox = document.getElementById('drop-remove');
+        var calendarEl = document.getElementById('calendar');
+
+        // initialize the external events
+        // -----------------------------------------------------------------
+
+        new Draggable(containerEl, {
+          itemSelector: '.external-event',
+          eventData: function (eventEl) {
+            return {
+              title: eventEl.innerText,
+              backgroundColor: window.getComputedStyle(eventEl, null).getPropertyValue('background-color'),
+              borderColor: window.getComputedStyle(eventEl, null).getPropertyValue('background-color'),
+              textColor: window.getComputedStyle(eventEl, null).getPropertyValue('color'),
+            };
+          }
+        });
+
+        var calendar = new Calendar(calendarEl, {
+          headerToolbar: {
+            left: 'prev,next today',
+            center: 'title',
+            right: 'dayGridMonth,timeGridWeek,timeGridDay'
+          },
+          themeSystem: 'bootstrap',
+          //Random default events
+          events: [
+            {
+              title: 'All Day Event',
+              start: new Date(y, m, 1),
+              backgroundColor: '#f56954', //red
+              borderColor: '#f56954', //red
+              allDay: true
+            },
+            {
+              title: 'Long Event',
+              start: new Date(y, m, d - 5),
+              end: new Date(y, m, d - 2),
+              backgroundColor: '#f39c12', //yellow
+              borderColor: '#f39c12' //yellow
+            },
+            {
+              title: 'Meeting',
+              start: new Date(y, m, d, 10, 30),
+              allDay: false,
+              backgroundColor: '#0073b7', //Blue
+              borderColor: '#0073b7' //Blue
+            },
+            {
+              title: 'Lunch',
+              start: new Date(y, m, d, 12, 0),
+              end: new Date(y, m, d, 14, 0),
+              allDay: false,
+              backgroundColor: '#00c0ef', //Info (aqua)
+              borderColor: '#00c0ef' //Info (aqua)
+            },
+            {
+              title: 'Birthday Party',
+              start: new Date(y, m, d + 1, 19, 0),
+              end: new Date(y, m, d + 1, 22, 30),
+              allDay: false,
+              backgroundColor: '#00a65a', //Success (green)
+              borderColor: '#00a65a' //Success (green)
+            },
+            {
+              title: 'Click for Google',
+              start: new Date(y, m, 28),
+              end: new Date(y, m, 29),
+              url: 'https://www.google.com/',
+              backgroundColor: '#3c8dbc', //Primary (light-blue)
+              borderColor: '#3c8dbc' //Primary (light-blue)
+            }
+          ],
+          editable: true,
+          droppable: true, // this allows things to be dropped onto the calendar !!!
+          drop: function (info) {
+            // is the "remove after drop" checkbox checked?
+            if (checkbox.checked) {
+              // if so, remove the element from the "Draggable Events" list
+              info.draggedEl.parentNode.removeChild(info.draggedEl);
+            }
+          }
+        });
+
+        calendar.render();
+        // $('#calendar').fullCalendar()
+
+        /* ADDING EVENTS */
+        var currColor = '#3c8dbc' //Red by default
+        // Color chooser button
+        $('#color-chooser > li > a').click(function (e) {
+          e.preventDefault()
+          // Save color
+          currColor = $(this).css('color')
+          // Add color effect to button
+          $('#add-new-event').css({
+            'background-color': currColor,
+            'border-color': currColor
+          })
+        })
+        $('#add-new-event').click(function (e) {
+          e.preventDefault()
+          // Get value and make sure it is not null
+          var val = $('#new-event').val()
+          if (val.length == 0) {
+            return
+          }
+
+          // Create events
+          var event = $('<div />')
+          event.css({
+            'background-color': currColor,
+            'border-color': currColor,
+            'color': '#fff'
+          }).addClass('external-event')
+          event.text(val)
+          $('#external-events').prepend(event)
+
+          // Add draggable funtionality
+          ini_events(event)
+
+          // Remove event from text input
+          $('#new-event').val('')
+        })
+      })
+    </script>
 </body>
+
 </html>
