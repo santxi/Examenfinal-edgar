@@ -1,6 +1,27 @@
 .nav-maxi{
-    background-color: rgb(255, 123, 0);
+    background-color: rgb(45, 74, 238);
 }
 .nav-maxi5{
     background-color: rgb(0, 100, 187);
+}
+.nav-maxi44{
+    background-color: rgb(0, 162, 255);
+}
+.nav-cuadro1{
+    background-color: rgb(126, 167, 245);
+}
+.nav-cuadro2{
+    background-color: rgb(104, 240, 172);
+}
+.nav-cuadro3{
+    background-color: rgb(255, 252, 97);
+}
+.nav-cuadro4{
+    background-color: rgb(252, 118, 109);
+}
+.nav-cuadrografe{
+    background-color: rgb(92, 77, 228);
+}
+.nav-cuadrografico{
+    background-color: rgb(79, 202, 206);
 }
